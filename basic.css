@@ -1,0 +1,30 @@
+body {
+	background-color: #F7EEDA;
+	margin: center;
+}
+h1 {
+	color: black;
+	padding: 20px;
+	text-align: center;
+	font-family: Georgia;
+	font-size: 2em;
+	text-decoration: underline;
+	text-shadow: 2px 2px 8px gray;
+	font-style: italic;
+}
+form {
+	color: black;
+	font-weight: bold;
+	font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+	font-size: 1.25em;
+	margin-left: 42.5%
+}
+input[type=submit] {
+	background: skyblue;
+	padding: 5px 30px;
+	font-family: arial;
+}
+input[type=submit]:hover {
+	background: grey;
+	text-decoration:underline;
+}
