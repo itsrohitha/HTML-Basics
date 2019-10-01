@@ -1,15 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<script>
-function validateForm() {
-	var x = document.form["myForm"]["FName"].value;
-	if(x == "") {
-		alert("This name has already been filled out.");
-		return false;
-	}
-}
-</script>
+
 	<link rel="stylesheet" href="basic.css">
 <title>
 	Class Project - HTML
@@ -20,6 +12,7 @@ function validateForm() {
 	Customer Information
 </h1>
 <form>
+	<fieldset>
 	First Name:<br>
 	<input type="text" name="firstname"><br>
 		<br>
@@ -30,6 +23,7 @@ function validateForm() {
 	<input type="text" name="email"><br>
 		<br>
 	<input type="submit">
+	</fieldset>
 </form>
 </body>
 </html>
